@@ -1,6 +1,6 @@
-import formsPlugin from '@tailwindcss/forms';
-
 /** @type {import('tailwindcss').Config} */
+
+import animate from "tailwindcss-animate";
 export default {
 	darkMode: ["class"],
 	content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"], theme: {
@@ -54,6 +54,6 @@ export default {
 			}
 		}
 	},
-	plugins: [formsPlugin],
+	plugins: [animate],
 }
 
